@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+p {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.2em
+}
+
+#news:hover {
+    transform: scale(1.2);
+}
+
+#pranet:hover #pranet_info{
+    display: block;
+}
+
+#kannan:hover #kannan_info {
+    display: block;
+}
+
+#michael:hover #michael_info{
+    display: block;
+}
+
+#pranet_info, #michael_info, #kannan_info {
+    display: none;
+}
+
+#about {
+    font-size: 1em;
+}
+
+li a:hover {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px white;
+    color:#295989;
+}
+
+footer p {
+    color: white
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.image-row a {
+    flex: 1; 
+    text-align: center; 
+    margin: 0 5px;
+}
+
+.image-row img {
+    max-width: 80%; 
+    height: 35vh; 
+    border-radius: 10px;
+}
+
+header {
+    background-color: #295989;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin-top: 10vh;
+}
+
+
+main {
+    margin: 1em;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #7ba7d2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+label {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 10vh;
+}
